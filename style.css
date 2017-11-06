@@ -1,0 +1,25 @@
+svg, input {
+  margin: 0 auto;
+  display: block;
+  font-family: Helvetica;
+  font-weight: 100;
+}
+
+.arc-big {
+  opacity: 0.6;
+  /* transform: scale(0.1) rotate(0deg);
+  animation: pieIn 2s ease-out forwards; */
+}
+
+.arc-small {
+  opacity: 0.8;
+  /* transform: scale(0.1) rotate(0deg);
+  animation: pieIn 2s ease-out forwards; */
+}
+
+@keyframes pieIn {
+  100%{
+    transform: scale(1) rotate(360deg);
+  }
+}
+
